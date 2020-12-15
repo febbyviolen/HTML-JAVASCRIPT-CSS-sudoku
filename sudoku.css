@@ -1,0 +1,97 @@
+body {
+    font-family:arial;
+    background-color: #f9d2d4;
+}
+
+#judul{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 55px;
+    color: #fdf27d;
+    -webkit-text-stroke: 2px #5e4200;
+    margin-bottom: -20px;
+}
+
+.buttonn{
+    color: #5e4b37;
+    background-color: #fdf27d;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    font-size: 19px;
+    padding-top: 13px;
+    padding-right: 16px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dotted;
+    border-top-color: buttonface;
+    border-right-color: buttonface;
+    border-bottom-color: buttonface;
+    border-left-color: buttonface;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background-color: #fdf27d;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.buttonn:active{
+    background-color: #FDCA7D;
+}
+
+#judul2{
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 55px;
+    color: #5e4200;
+}
+#Copy a { color:#000; }
+
+#Container {
+	background:url("gfx/board.jpg") top left no-repeat;
+	margin: 0 auto;
+	padding:0;
+	width:745px;
+	height:698px;
+	position:relative;
+}
+
+table {
+	position:absolute;
+	top:94px;
+	left:86px;
+	margin:0;
+	border-collapse:collapse;
+}
+
+td {
+	padding:2px 0 0 2px;
+}
+
+td a {
+	display:table-cell;
+	text-align:center;
+	width:58px;
+	height:58px;
+	vertical-align:middle;
+	font-size:30px;
+	font-weight:bold;
+	color:#000;
+	text-decoration:none;
+}
+
+a.Valid { color:#070; }
+a.Invalid { color:#f00; background:url("gfx/invalid.png"); }
+a.Fixed, a.Fixed.Invalid { color:#84663e; }
+a.Sel { background:url("gfx/selected.png"); }
